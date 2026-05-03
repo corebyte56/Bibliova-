@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Drawer, Button } from "@heroui/react";
+import { HamburgerIcon, ListMinus } from "lucide-react";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -48,7 +49,9 @@ export default function Navbar() {
         </div>
         {/* Mobile Hamburger */}
         <Drawer>
-          <Button variant="secondary">  </Button>
+          <Button className="md:hidden">
+            <ListMinus />
+          </Button>
           <Drawer.Backdrop>
             <Drawer.Content placement="right">
               <Drawer.Dialog>
