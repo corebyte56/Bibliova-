@@ -1,904 +1,904 @@
 {
   "books": [
-  {
-    "id": 1,
-    "title": "The Midnight Library",
-    "author": "Matt Haig",
-    "description": "A magical story about a library that exists between life and death, where every book represents a different life the protagonist could have lived. A deeply moving exploration of regret, possibility, and the choices that define us.",
-    "category": "Story",
-    "available_quantity": 5,
-    "image_url": "https://m.media-amazon.com/images/I/71qsovx-x6L._SL1500_.jpg"
-  },
-  {
-    "id": 2,
-    "title": "Clean Code",
-    "author": "Robert C. Martin",
-    "description": "A handbook of agile software craftsmanship that teaches programmers how to write readable, maintainable, and elegant code. Essential reading for any developer who wants to level up their craft.",
-    "category": "Tech",
-    "available_quantity": 8,
-    "image_url": "https://covers.openlibrary.org/b/id/8091016-L.jpg"
-  },
-  {
-    "id": 3,
-    "title": "A Brief History of Time",
-    "author": "Stephen Hawking",
-    "description": "A landmark volume in science writing that explores the origin and fate of the universe, black holes, and the nature of time itself. Written for non-scientists, it remains one of the most influential science books ever published.",
-    "category": "Science",
-    "available_quantity": 4,
-    "image_url": "https://covers.openlibrary.org/b/id/8739161-L.jpg"
-  },
-  {
-    "id": 4,
-    "title": "Project Hail Mary",
-    "author": "Andy Weir",
-    "description": "A lone astronaut wakes up millions of miles from Earth with no memory of how he got there, only to discover he is humanity's last hope against an extinction-level threat. A thrilling blend of science and storytelling.",
-    "category": "Story",
-    "available_quantity": 6,
-    "image_url": "https://covers.openlibrary.org/b/id/12817530-L.jpg"
-  },
-  {
-    "id": 5,
-    "title": "You Don't Know JS Yet",
-    "author": "Kyle Simpson",
-    "description": "A deep dive into the core mechanisms of the JavaScript language, unraveling its most misunderstood features. This series helps developers truly master JavaScript rather than just use it.",
-    "category": "Tech",
-    "available_quantity": 10,
-    "image_url": "https://covers.openlibrary.org/b/id/9287760-L.jpg"
-  },
-  {
-    "id": 6,
-    "title": "The Selfish Gene",
-    "author": "Richard Dawkins",
-    "description": "A revolutionary view of evolution from the gene's perspective, introducing concepts like the selfish gene and meme. One of the most important biology books of the 20th century.",
-    "category": "Science",
-    "available_quantity": 3,
-    "image_url": "https://covers.openlibrary.org/b/id/8739208-L.jpg"
-  },
-  {
-    "id": 7,
-    "title": "To Kill a Mockingbird",
-    "author": "Harper Lee",
-    "description": "Set in the American South during the 1930s, this Pulitzer Prize-winning novel follows young Scout Finch as her father defends a Black man unjustly accused of a crime, exploring themes of racial injustice and moral growth.",
-    "category": "Story",
-    "available_quantity": 7,
-    "image_url": "https://covers.openlibrary.org/b/id/8810234-L.jpg"
-  },
-  {
-    "id": 8,
-    "title": "Designing Data-Intensive Applications",
-    "author": "Martin Kleppmann",
-    "description": "An in-depth exploration of the principles, practices, and challenges behind scalable and reliable data systems. A must-read for backend engineers working with databases and distributed systems.",
-    "category": "Tech",
-    "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/10519765-L.jpg"
-  },
-  {
-    "id": 9,
-    "title": "Cosmos",
-    "author": "Carl Sagan",
-    "description": "A breathtaking journey through the universe that connects the story of science with the story of humanity. Sagan's poetic writing makes cosmic concepts feel personal and profound.",
-    "category": "Science",
-    "available_quantity": 6,
-    "image_url": "https://covers.openlibrary.org/b/id/6979861-L.jpg"
-  },
-  {
-    "id": 10,
-    "title": "The Alchemist",
-    "author": "Paulo Coelho",
-    "description": "A fable about following your dreams, this internationally bestselling novel follows a young shepherd's journey from Spain to Egypt in pursuit of a worldly treasure. A timeless story about listening to your heart.",
-    "category": "Story",
-    "available_quantity": 9,
-    "image_url": "https://covers.openlibrary.org/b/id/8231856-L.jpg"
-  },
-  {
-    "id": 11,
-    "title": "The Pragmatic Programmer",
-    "author": "David Thomas & Andrew Hunt",
-    "description": "A collection of practical tips and philosophies for modern software development. From career advice to coding techniques, this book helps developers think and work more effectively.",
-    "category": "Tech",
-    "available_quantity": 4,
-    "image_url": "https://covers.openlibrary.org/b/id/10392588-L.jpg"
-  },
-  {
-    "id": 12,
-    "title": "The Gene: An Intimate History",
-    "author": "Siddhartha Mukherjee",
-    "description": "A masterful exploration of the history, science, and future of genetics. From Mendel's peas to CRISPR gene editing, this book tells the story of one of humanity's most powerful and dangerous ideas.",
-    "category": "Science",
-    "available_quantity": 2,
-    "image_url": "https://covers.openlibrary.org/b/id/9301901-L.jpg"
-  },
-  {
-    "id": 13,
-    "title": "1984",
-    "author": "George Orwell",
-    "description": "A dystopian masterpiece set in a totalitarian future where Big Brother watches everyone. Winston Smith's rebellion against the Party remains one of literature's most powerful warnings about government control and loss of freedom.",
-    "category": "Story",
-    "available_quantity": 11,
-    "image_url": "https://covers.openlibrary.org/b/id/8575708-L.jpg"
-  },
-  {
-    "id": 14,
-    "title": "JavaScript: The Good Parts",
-    "author": "Douglas Crockford",
-    "description": "A concise guide to the best features of JavaScript, cutting through the language's inconsistencies to reveal the elegant, powerful subset at its core. A classic that changed how developers think about JS.",
-    "category": "Tech",
-    "available_quantity": 7,
-    "image_url": "https://covers.openlibrary.org/b/id/8406786-L.jpg"
-  },
-  {
-    "id": 15,
-    "title": "The Origin of Species",
-    "author": "Charles Darwin",
-    "description": "Darwin's groundbreaking work that introduced the theory of evolution by natural selection, forever changing our understanding of life on Earth. One of the most important scientific texts ever written.",
-    "category": "Science",
-    "available_quantity": 3,
-    "image_url": "https://covers.openlibrary.org/b/id/8739207-L.jpg"
-  },
-  {
-    "id": 16,
-    "title": "Brave New World",
-    "author": "Aldous Huxley",
-    "description": "A chilling vision of a future society where humans are engineered and conditioned for happiness at the cost of freedom and individuality. Huxley's dystopia feels increasingly relevant in the modern age.",
-    "category": "Story",
-    "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/9252494-L.jpg"
-  },
-  {
-    "id": 17,
-    "title": "Introduction to Algorithms",
-    "author": "Cormen, Leiserson, Rivest & Stein",
-    "description": "The definitive textbook on algorithms, covering everything from sorting and searching to graph theory and dynamic programming. Known as CLRS, it is the bible of computer science education worldwide.",
-    "category": "Tech",
-    "available_quantity": 6,
-    "image_url": "https://covers.openlibrary.org/b/id/8160966-L.jpg"
-  },
-  {
-    "id": 18,
-    "title": "Sapiens: A Brief History of Humankind",
-    "author": "Yuval Noah Harari",
-    "description": "A sweeping narrative of human history from the Stone Age to the present, examining how Homo sapiens came to dominate the planet through cognitive revolution, agriculture, and modern science.",
-    "category": "Science",
-    "available_quantity": 8,
-    "image_url": "https://covers.openlibrary.org/b/id/9860720-L.jpg"
-  },
-  {
-    "id": 19,
-    "title": "The Great Gatsby",
-    "author": "F. Scott Fitzgerald",
-    "description": "A dazzling portrait of the Jazz Age, following the mysterious millionaire Jay Gatsby and his obsession with the beautiful Daisy Buchanan. A timeless critique of the American Dream and the hollowness of wealth.",
-    "category": "Story",
-    "available_quantity": 9,
-    "image_url": "https://covers.openlibrary.org/b/id/8474427-L.jpg"
-  },
-  {
-    "id": 20,
-    "title": "Structure and Interpretation of Computer Programs",
-    "author": "Harold Abelson & Gerald Sussman",
-    "description": "Known as SICP, this legendary MIT textbook teaches the fundamental principles of programming using Scheme. It emphasizes abstraction, recursion, and building complex systems from simple parts.",
-    "category": "Tech",
-    "available_quantity": 4,
-    "image_url": "https://covers.openlibrary.org/b/id/8892993-L.jpg"
-  },
-  {
-    "id": 21,
-    "title": "The Double Helix",
-    "author": "James D. Watson",
-    "description": "A personal account of the discovery of DNA's structure, one of the greatest scientific breakthroughs of the 20th century. Watson's candid narrative reveals the competitive, human side of science.",
-    "category": "Science",
-    "available_quantity": 3,
-    "image_url": "https://covers.openlibrary.org/b/id/8406781-L.jpg"
-  },
-  {
-    "id": 22,
-    "title": "Crime and Punishment",
-    "author": "Fyodor Dostoevsky",
-    "description": "A psychological thriller following Raskolnikov, a student in St. Petersburg who commits a murder and is tormented by guilt. One of the greatest novels ever written, exploring morality, guilt, and redemption.",
-    "category": "Story",
-    "available_quantity": 4,
-    "image_url": "https://covers.openlibrary.org/b/id/8406787-L.jpg"
-  },
-  {
-    "id": 23,
-    "title": "The Linux Command Line",
-    "author": "William Shotts",
-    "description": "A comprehensive introduction to the Linux command line, teaching shell scripting, file management, and system administration. Perfect for developers and system administrators who want to master the terminal.",
-    "category": "Tech",
-    "available_quantity": 7,
-    "image_url": "https://covers.openlibrary.org/b/id/9255059-L.jpg"
-  },
-  {
-    "id": 24,
-    "title": "Silent Spring",
-    "author": "Rachel Carson",
-    "description": "The book that launched the modern environmental movement, documenting the devastating effects of pesticides on wildlife and ecosystems. Carson's writing changed public policy and our relationship with nature.",
-    "category": "Science",
-    "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/8231922-L.jpg"
-  },
-  {
-    "id": 25,
-    "title": "Dune",
-    "author": "Frank Herbert",
-    "description": "An epic science fiction saga set on the desert planet Arrakis, following Paul Atreides through political intrigue, ecological crisis, and messianic destiny. The best-selling science fiction novel of all time.",
-    "category": "Story",
-    "available_quantity": 10,
-    "image_url": "https://covers.openlibrary.org/b/id/9860726-L.jpg"
-  },
-  {
-    "id": 26,
-    "title": "Deep Learning",
-    "author": "Ian Goodfellow, Yoshua Bengio & Aaron Courville",
-    "description": "The definitive textbook on deep learning, covering neural networks, optimization, convolutional networks, and generative models. Essential for anyone serious about understanding modern AI and machine learning.",
-    "category": "Tech",
-    "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/10901274-L.jpg"
-  },
-  {
-    "id": 27,
-    "title": "The Elegant Universe",
-    "author": "Brian Greene",
-    "description": "An accessible exploration of string theory and the quest for a unified theory of everything. Greene masterfully bridges the gap between relativity and quantum mechanics for general readers.",
-    "category": "Science",
-    "available_quantity": 4,
-    "image_url": "https://covers.openlibrary.org/b/id/8406782-L.jpg"
-  },
-  {
-    "id": 28,
-    "title": "One Hundred Years of Solitude",
-    "author": "Gabriel García Márquez",
-    "description": "A magical realist epic following seven generations of the Buendía family in the fictional town of Macondo. A Nobel Prize-winning masterpiece that blends the mundane with the miraculous.",
-    "category": "Story",
-    "available_quantity": 6,
-    "image_url": "https://covers.openlibrary.org/b/id/8406783-L.jpg"
-  },
-  {
-    "id": 29,
-    "title": "Computer Networks",
-    "author": "Andrew S. Tanenbaum",
-    "description": "A comprehensive textbook on computer networking, covering protocols, the internet architecture, TCP/IP, wireless networks, and security. A standard reference in computer science programs worldwide.",
-    "category": "Tech",
-    "available_quantity": 6,
-    "image_url": "https://covers.openlibrary.org/b/id/8098618-L.jpg"
-  },
-  {
-    "id": 30,
-    "title": "The Emperor of All Maladies",
-    "author": "Siddhartha Mukherjee",
-    "description": "A Pulitzer Prize-winning biography of cancer, tracing the disease's history from ancient Egypt to modern targeted therapies. A compassionate and brilliant exploration of medicine's most feared adversary.",
-    "category": "Science",
-    "available_quantity": 3,
-    "image_url": "https://covers.openlibrary.org/b/id/9301900-L.jpg"
-  },
-  {
-    "id": 31,
-    "title": "The Hitchhiker's Guide to the Galaxy",
-    "author": "Douglas Adams",
-    "description": "A hilarious and absurdist sci-fi comedy following Arthur Dent after Earth is demolished to make way for a hyperspace bypass. Full of wit, philosophical musings, and the answer to life, the universe, and everything.",
-    "category": "Story",
-    "available_quantity": 12,
-    "image_url": "https://covers.openlibrary.org/b/id/8406784-L.jpg"
-  },
-  {
-    "id": 32,
-    "title": "Operating System Concepts",
-    "author": "Silberschatz, Galvin & Gagne",
-    "description": "Known as the Dinosaur Book, this is the most widely used textbook for operating systems courses. Covers processes, threads, memory management, file systems, and security in thorough detail.",
-    "category": "Tech",
-    "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/8406785-L.jpg"
-  },
-  {
-    "id": 33,
-    "title": "The Feynman Lectures on Physics",
-    "author": "Richard P. Feynman",
-    "description": "A legendary three-volume series based on Richard Feynman's undergraduate physics lectures at Caltech. Celebrated for its clarity, depth, and the infectious enthusiasm of one of the greatest physicists of all time.",
-    "category": "Science",
-    "available_quantity": 2,
-    "image_url": "https://covers.openlibrary.org/b/id/8406789-L.jpg"
-  },
-  {
-    "id": 34,
-    "title": "The Kite Runner",
-    "author": "Khaled Hosseini",
-    "description": "A powerful story of friendship, betrayal, and redemption set against the backdrop of Afghanistan's turbulent history. A heart-wrenching debut novel that resonated with millions of readers worldwide.",
-    "category": "Story",
-    "available_quantity": 8,
-    "image_url": "https://covers.openlibrary.org/b/id/8231858-L.jpg"
-  },
-  {
-    "id": 35,
-    "title": "Cracking the Coding Interview",
-    "author": "Gayle Laakmann McDowell",
-    "description": "The essential guide for software engineers preparing for technical interviews at top tech companies. Features 189 programming questions with detailed solutions, tips, and strategies for success.",
-    "category": "Tech",
-    "available_quantity": 9,
-    "image_url": "https://covers.openlibrary.org/b/id/10255999-L.jpg"
-  },
-  {
-    "id": 36,
-    "title": "The Immortal Life of Henrietta Lacks",
-    "author": "Rebecca Skloot",
-    "description": "The remarkable true story of a Black woman whose cancer cells were taken without her knowledge and became one of the most important tools in medicine. A profound exploration of science, ethics, and race.",
-    "category": "Science",
-    "available_quantity": 4,
-    "image_url": "https://covers.openlibrary.org/b/id/9255057-L.jpg"
-  },
-  {
-    "id": 37,
-    "title": "The Brothers Karamazov",
-    "author": "Fyodor Dostoevsky",
-    "description": "Dostoevsky's final and greatest novel, a profound exploration of faith, doubt, morality, and the existence of God through the story of three brothers and the murder of their father.",
-    "category": "Story",
-    "available_quantity": 3,
-    "image_url": "https://covers.openlibrary.org/b/id/8406790-L.jpg"
-  },
-  {
-    "id": 38,
-    "title": "Design Patterns",
-    "author": "Gang of Four",
-    "description": "The seminal book on software design patterns by Gamma, Helm, Johnson, and Vlissides. Presents 23 classic patterns for solving common object-oriented design problems, influencing software development for decades.",
-    "category": "Tech",
-    "available_quantity": 6,
-    "image_url": "https://covers.openlibrary.org/b/id/8406791-L.jpg"
-  },
-  {
-    "id": 39,
-    "title": "Pale Blue Dot",
-    "author": "Carl Sagan",
-    "description": "Inspired by the famous photograph of Earth taken from Voyager 1, Sagan reflects on humanity's place in the cosmos and argues passionately for space exploration and scientific literacy.",
-    "category": "Science",
-    "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/8406792-L.jpg"
-  },
-  {
-    "id": 40,
-    "title": "The Road",
-    "author": "Cormac McCarthy",
-    "description": "A bleak and beautiful post-apocalyptic novel about a father and son walking through a devastated America. A Pulitzer Prize winner that is both a survival story and a meditation on love and hope.",
-    "category": "Story",
-    "available_quantity": 7,
-    "image_url": "https://covers.openlibrary.org/b/id/8406793-L.jpg"
-  },
-  {
-    "id": 41,
-    "title": "Python Crash Course",
-    "author": "Eric Matthes",
-    "description": "A fast-paced, hands-on introduction to programming with Python. Covers the basics of the language and then moves into building real-world projects like games, data visualizations, and web apps.",
-    "category": "Tech",
-    "available_quantity": 11,
-    "image_url": "https://covers.openlibrary.org/b/id/10392589-L.jpg"
-  },
-  {
-    "id": 42,
-    "title": "The Body: A Guide for Occupants",
-    "author": "Bill Bryson",
-    "description": "A witty and fascinating tour of the human body, covering everything from bones and muscles to the brain and immune system. Bryson makes complex biology accessible and endlessly entertaining.",
-    "category": "Science",
-    "available_quantity": 6,
-    "image_url": "https://covers.openlibrary.org/b/id/10909260-L.jpg"
-  },
-  {
-    "id": 43,
-    "title": "Moby-Dick",
-    "author": "Herman Melville",
-    "description": "The epic tale of Captain Ahab's obsessive quest to hunt the white whale Moby Dick. A monumental work of American literature that explores themes of obsession, fate, and humanity's struggle against nature.",
-    "category": "Story",
-    "available_quantity": 4,
-    "image_url": "https://covers.openlibrary.org/b/id/8406794-L.jpg"
-  },
-  {
-    "id": 44,
-    "title": "The Art of Computer Programming",
-    "author": "Donald E. Knuth",
-    "description": "A comprehensive multi-volume series covering fundamental algorithms and data structures. Knuth's magnum opus is considered the most important reference work in the field of computer science.",
-    "category": "Tech",
-    "available_quantity": 3,
-    "image_url": "https://covers.openlibrary.org/b/id/8406795-L.jpg"
-  },
-  {
-    "id": 45,
-    "title": "The Sixth Extinction",
-    "author": "Elizabeth Kolbert",
-    "description": "A Pulitzer Prize-winning account of the ongoing mass extinction of species caused by human activity. Kolbert travels the world to document disappearing creatures and the scientists racing to understand them.",
-    "category": "Science",
-    "available_quantity": 4,
-    "image_url": "https://covers.openlibrary.org/b/id/9860722-L.jpg"
-  },
-  {
-    "id": 46,
-    "title": "Don Quixote",
-    "author": "Miguel de Cervantes",
-    "description": "Often called the first modern novel, this Spanish classic follows the adventures of a man who sets out as a knight-errant with his faithful squire Sancho Panza after being driven mad by chivalric romances.",
-    "category": "Story",
-    "available_quantity": 3,
-    "image_url": "https://covers.openlibrary.org/b/id/8406796-L.jpg"
-  },
-  {
-    "id": 47,
-    "title": "Head First Design Patterns",
-    "author": "Eric Freeman & Elisabeth Robson",
-    "description": "A visually rich, brain-friendly guide to design patterns in object-oriented programming. Uses real-world scenarios, puzzles, and humor to make complex patterns easy to understand and apply.",
-    "category": "Tech",
-    "available_quantity": 7,
-    "image_url": "https://covers.openlibrary.org/b/id/8406797-L.jpg"
-  },
-  {
-    "id": 48,
-    "title": "Astrophysics for People in a Hurry",
-    "author": "Neil deGrasse Tyson",
-    "description": "A concise and engaging overview of the universe's greatest mysteries, from the Big Bang and dark matter to dark energy and the cosmic microwave background. Perfect for curious minds with limited time.",
-    "category": "Science",
-    "available_quantity": 8,
-    "image_url": "https://covers.openlibrary.org/b/id/10392590-L.jpg"
-  },
-  {
-    "id": 49,
-    "title": "Anna Karenina",
-    "author": "Leo Tolstoy",
-    "description": "A sweeping Russian novel about the tragic love affair between the married aristocrat Anna Karenina and the dashing officer Count Vronsky, set against the backdrop of 19th-century Russian society.",
-    "category": "Story",
-    "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/8406798-L.jpg"
-  },
-  {
-    "id": 50,
-    "title": "Computer Organization and Architecture",
-    "author": "William Stallings",
-    "description": "A thorough introduction to the design and architecture of computer systems, covering processors, memory hierarchy, instruction sets, and parallel processing. A standard text in computer engineering programs.",
-    "category": "Tech",
-    "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/8406799-L.jpg"
-  },
-  {
-    "id": 51,
-    "title": "The Innovators",
-    "author": "Walter Isaacson",
-    "description": "A history of the digital revolution, tracing the lives of the visionaries who created the computer and the internet. From Ada Lovelace to Steve Jobs, it is a story of collaboration, creativity, and technology.",
-    "category": "Tech",
-    "available_quantity": 6,
-    "image_url": "https://covers.openlibrary.org/b/id/9860724-L.jpg"
-  },
-  {
-    "id": 52,
-    "title": "The Andromeda Strain",
-    "author": "Michael Crichton",
-    "description": "A gripping techno-thriller about a team of scientists racing to contain a deadly alien microorganism that has wiped out an entire town. Crichton's meticulous scientific detail makes the story terrifyingly plausible.",
-    "category": "Story",
-    "available_quantity": 7,
-    "image_url": "https://covers.openlibrary.org/b/id/8406800-L.jpg"
-  },
-  {
-    "id": 53,
-    "title": "The Code Book",
-    "author": "Simon Singh",
-    "description": "A fascinating history of cryptography from ancient Egypt to the modern age, covering Caesar ciphers, Enigma, and public-key cryptography. Singh makes the complex world of codes and codebreaking thrilling.",
-    "category": "Science",
-    "available_quantity": 4,
-    "image_url": "https://covers.openlibrary.org/b/id/8406801-L.jpg"
-  },
-  {
-    "id": 54,
-    "title": "Fahrenheit 451",
-    "author": "Ray Bradbury",
-    "description": "A dystopian novel set in a future where books are banned and firemen burn any that are found. A powerful warning about censorship, conformity, and the dangerous suppression of intellectual freedom.",
-    "category": "Story",
-    "available_quantity": 8,
-    "image_url": "https://covers.openlibrary.org/b/id/8406802-L.jpg"
-  },
-  {
-    "id": 55,
-    "title": "Refactoring",
-    "author": "Martin Fowler",
-    "description": "The essential guide to improving the design of existing code without changing its behavior. Fowler's catalog of refactoring techniques is indispensable for any developer working with legacy systems.",
-    "category": "Tech",
-    "available_quantity": 6,
-    "image_url": "https://covers.openlibrary.org/b/id/8406803-L.jpg"
-  },
-  {
-    "id": 56,
-    "title": "The Quantum World",
-    "author": "Kenneth W. Ford",
-    "description": "An accessible introduction to quantum mechanics that explains the bizarre rules governing the subatomic world, including superposition, entanglement, and the uncertainty principle, without heavy mathematics.",
-    "category": "Science",
-    "available_quantity": 3,
-    "image_url": "https://covers.openlibrary.org/b/id/8406804-L.jpg"
-  },
-  {
-    "id": 57,
-    "title": "Les Misérables",
-    "author": "Victor Hugo",
-    "description": "An epic masterpiece of French literature following ex-convict Jean Valjean across decades of French history. A profound meditation on justice, love, redemption, and the human capacity for good and evil.",
-    "category": "Story",
-    "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/8406805-L.jpg"
-  },
-  {
-    "id": 58,
-    "title": "React Up and Running",
-    "author": "Stoyan Stefanov",
-    "description": "A practical guide to building modern web applications with React. Covers components, state management, hooks, and the React ecosystem, helping JavaScript developers transition into modern frontend development.",
-    "category": "Tech",
-    "available_quantity": 8,
-    "image_url": "https://covers.openlibrary.org/b/id/8406806-L.jpg"
-  },
-  {
-    "id": 59,
-    "title": "The Periodic Table",
-    "author": "Primo Levi",
-    "description": "A unique blend of memoir and chemistry in which each chapter is named after a chemical element. Levi uses the elements as metaphors to reflect on his experiences as an Italian Jew and Holocaust survivor.",
-    "category": "Science",
-    "available_quantity": 3,
-    "image_url": "https://covers.openlibrary.org/b/id/8406807-L.jpg"
-  },
-  {
-    "id": 60,
-    "title": "The Count of Monte Cristo",
-    "author": "Alexandre Dumas",
-    "description": "An adventure novel of betrayal and elaborate revenge, following Edmond Dantès who escapes from wrongful imprisonment and reinvents himself as the mysterious Count of Monte Cristo to exact justice on his enemies.",
-    "category": "Story",
-    "available_quantity": 10,
-    "image_url": "https://covers.openlibrary.org/b/id/8406808-L.jpg"
-  },
-  {
-    "id": 61,
-    "title": "Docker Deep Dive",
-    "author": "Nigel Poulton",
-    "description": "A clear and concise guide to Docker containers, covering images, containers, networking, volumes, and Docker Compose. Perfect for developers and DevOps engineers getting started with containerization.",
-    "category": "Tech",
-    "available_quantity": 7,
-    "image_url": "https://covers.openlibrary.org/b/id/8406809-L.jpg"
-  },
-  {
-    "id": 62,
-    "title": "The Man Who Knew Infinity",
-    "author": "Robert Kanigel",
-    "description": "The biography of Srinivasa Ramanujan, a self-taught mathematical genius from India who forged a legendary collaboration with Cambridge mathematician G.H. Hardy and produced extraordinary work before dying at age 32.",
-    "category": "Science",
-    "available_quantity": 4,
-    "image_url": "https://covers.openlibrary.org/b/id/8406810-L.jpg"
-  },
-  {
-    "id": 63,
-    "title": "The Old Man and the Sea",
-    "author": "Ernest Hemingway",
-    "description": "A short novel about an aging Cuban fisherman's epic struggle with a giant marlin far out in the Gulf Stream. Hemingway's minimalist prose masks a deep meditation on endurance, defeat, and human dignity.",
-    "category": "Story",
-    "available_quantity": 6,
-    "image_url": "https://covers.openlibrary.org/b/id/8406811-L.jpg"
-  },
-  {
-    "id": 64,
-    "title": "Learning SQL",
-    "author": "Alan Beaulieu",
-    "description": "A comprehensive introduction to SQL, covering database design, querying, filtering, aggregating, and joining data. An essential resource for anyone working with relational databases professionally.",
-    "category": "Tech",
-    "available_quantity": 9,
-    "image_url": "https://covers.openlibrary.org/b/id/8406812-L.jpg"
-  },
-  {
-    "id": 65,
-    "title": "The Structure of Scientific Revolutions",
-    "author": "Thomas S. Kuhn",
-    "description": "A landmark work in the history and philosophy of science that introduced the concept of the paradigm shift. Kuhn argues that science does not progress linearly but through periodic revolutionary upheavals.",
-    "category": "Science",
-    "available_quantity": 3,
-    "image_url": "https://covers.openlibrary.org/b/id/8406813-L.jpg"
-  },
-  {
-    "id": 66,
-    "title": "Pride and Prejudice",
-    "author": "Jane Austen",
-    "description": "A beloved classic of English literature following the spirited Elizabeth Bennet as she navigates issues of manners, morality, and marriage in early 19th-century England, most notably with the proud Mr. Darcy.",
-    "category": "Story",
-    "available_quantity": 12,
-    "image_url": "https://covers.openlibrary.org/b/id/8406814-L.jpg"
-  },
-  {
-    "id": 67,
-    "title": "Kubernetes in Action",
-    "author": "Marko Lukša",
-    "description": "A comprehensive guide to Kubernetes, covering pods, services, deployments, and cluster management. An essential read for developers and operations engineers working with container orchestration at scale.",
-    "category": "Tech",
-    "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/10392591-L.jpg"
-  },
-  {
-    "id": 68,
-    "title": "The Demon-Haunted World",
-    "author": "Carl Sagan",
-    "description": "A passionate defense of scientific thinking and skepticism, arguing that science is a candle in the dark against superstition and pseudoscience. Sagan's plea for critical thinking is more relevant than ever.",
-    "category": "Science",
-    "available_quantity": 6,
-    "image_url": "https://covers.openlibrary.org/b/id/8406815-L.jpg"
-  },
-  {
-    "id": 69,
-    "title": "The Name of the Wind",
-    "author": "Patrick Rothfuss",
-    "description": "The first volume of the Kingkiller Chronicle, following the legendary wizard Kvothe as he recounts his life story. A beautifully written epic fantasy with intricate world-building and a compelling narrative voice.",
-    "category": "Story",
-    "available_quantity": 8,
-    "image_url": "https://covers.openlibrary.org/b/id/8406816-L.jpg"
-  },
-  {
-    "id": 70,
-    "title": "CSS: The Definitive Guide",
-    "author": "Eric Meyer & Estelle Weyl",
-    "description": "The most comprehensive reference for CSS, covering selectors, the box model, layout, animations, and the latest CSS features. An invaluable resource for web designers and front-end developers.",
-    "category": "Tech",
-    "available_quantity": 6,
-    "image_url": "https://covers.openlibrary.org/b/id/8406817-L.jpg"
-  },
-  {
-    "id": 71,
-    "title": "The Disappearing Spoon",
-    "author": "Sam Kean",
-    "description": "A collection of captivating stories about the elements of the periodic table, blending history, biography, and science. Kean reveals the fascinating tales behind each element's discovery and its impact on history.",
-    "category": "Science",
-    "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/8406818-L.jpg"
-  },
-  {
-    "id": 72,
-    "title": "Siddhartha",
-    "author": "Hermann Hesse",
-    "description": "A spiritual novel set in ancient India, following the journey of Siddhartha, a young Brahmin who seeks enlightenment through various paths including asceticism, sensual indulgence, and meditation.",
-    "category": "Story",
-    "available_quantity": 7,
-    "image_url": "https://covers.openlibrary.org/b/id/8406819-L.jpg"
-  },
-  {
-    "id": 73,
-    "title": "The Phoenix Project",
-    "author": "Gene Kim, Kevin Behr & George Spafford",
-    "description": "A novel about IT, DevOps, and helping your business win. The story follows an IT manager navigating a company crisis and discovering the principles of DevOps that transform both the technology and the culture.",
-    "category": "Tech",
-    "available_quantity": 7,
-    "image_url": "https://covers.openlibrary.org/b/id/9860725-L.jpg"
-  },
-  {
-    "id": 74,
-    "title": "Surely You're Joking, Mr. Feynman!",
-    "author": "Richard P. Feynman",
-    "description": "A collection of anecdotes and adventures from Nobel Prize-winning physicist Richard Feynman, covering his experiences at Los Alamos, his love of bongo drums, safecracking, and his insatiable curiosity about everything.",
-    "category": "Science",
-    "available_quantity": 8,
-    "image_url": "https://covers.openlibrary.org/b/id/8406820-L.jpg"
-  },
-  {
-    "id": 75,
-    "title": "The Catcher in the Rye",
-    "author": "J.D. Salinger",
-    "description": "The iconic coming-of-age novel narrated by the rebellious and disillusioned Holden Caulfield as he wanders New York City after being expelled from prep school. A defining text of teenage alienation.",
-    "category": "Story",
-    "available_quantity": 9,
-    "image_url": "https://covers.openlibrary.org/b/id/8406821-L.jpg"
-  },
-  {
-    "id": 76,
-    "title": "Test-Driven Development",
-    "author": "Kent Beck",
-    "description": "The foundational book on TDD by its creator, demonstrating how writing tests before code leads to cleaner design and fewer bugs. A methodology that transformed software engineering practices worldwide.",
-    "category": "Tech",
-    "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/8406822-L.jpg"
-  },
-  {
-    "id": 77,
-    "title": "The Hot Zone",
-    "author": "Richard Preston",
-    "description": "A terrifying true story about the emergence of the Ebola virus in the United States in 1989. Preston's vivid and detailed account reads like a thriller, but the horror is entirely real.",
-    "category": "Science",
-    "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/8406823-L.jpg"
-  },
-  {
-    "id": 78,
-    "title": "Flowers for Algernon",
-    "author": "Daniel Keyes",
-    "description": "A deeply moving science fiction story told through the journal entries of Charlie Gordon, a man with an intellectual disability who undergoes an experimental surgery that dramatically increases his intelligence.",
-    "category": "Story",
-    "available_quantity": 6,
-    "image_url": "https://covers.openlibrary.org/b/id/8406824-L.jpg"
-  },
-  {
-    "id": 79,
-    "title": "Eloquent JavaScript",
-    "author": "Marijn Haverbeke",
-    "description": "A modern and comprehensive introduction to JavaScript programming, covering the language from basics to advanced topics like asynchronous programming, the browser DOM, and Node.js. Freely available online.",
-    "category": "Tech",
-    "available_quantity": 8,
-    "image_url": "https://covers.openlibrary.org/b/id/8406825-L.jpg"
-  },
-  {
-    "id": 80,
-    "title": "The Soul of a New Machine",
-    "author": "Tracy Kidder",
-    "description": "A Pulitzer Prize-winning account of the development of a new computer at Data General in the late 1970s. A gripping portrait of engineering culture, ambition, and the human cost of technological innovation.",
-    "category": "Science",
-    "available_quantity": 3,
-    "image_url": "https://covers.openlibrary.org/b/id/8406826-L.jpg"
-  },
-  {
-    "id": 81,
-    "title": "Slaughterhouse-Five",
-    "author": "Kurt Vonnegut",
-    "description": "A satirical anti-war novel following Billy Pilgrim, who becomes unstuck in time after surviving the firebombing of Dresden in World War II. One of the most influential American novels of the 20th century.",
-    "category": "Story",
-    "available_quantity": 7,
-    "image_url": "https://covers.openlibrary.org/b/id/8406827-L.jpg"
-  },
-  {
-    "id": 82,
-    "title": "Building Microservices",
-    "author": "Sam Newman",
-    "description": "The definitive guide to microservices architecture, covering service decomposition, communication patterns, deployment, and security. Essential for architects and engineers designing distributed systems.",
-    "category": "Tech",
-    "available_quantity": 6,
-    "image_url": "https://covers.openlibrary.org/b/id/10392592-L.jpg"
-  },
-  {
-    "id": 83,
-    "title": "The Martian",
-    "author": "Andy Weir",
-    "description": "An astronaut is stranded alone on Mars and must use his ingenuity and scientific knowledge to survive. A witty and technically accurate tale of problem-solving under impossible pressure.",
-    "category": "Story",
-    "available_quantity": 10,
-    "image_url": "https://covers.openlibrary.org/b/id/9860727-L.jpg"
-  },
-  {
-    "id": 84,
-    "title": "Zero to One",
-    "author": "Peter Thiel",
-    "description": "Notes on startups and how to build the future, by PayPal co-founder Peter Thiel. Challenges conventional thinking about innovation, arguing that true progress comes from creating something entirely new.",
-    "category": "Tech",
-    "available_quantity": 7,
-    "image_url": "https://covers.openlibrary.org/b/id/9860728-L.jpg"
-  },
-  {
-    "id": 85,
-    "title": "What Is Life?",
-    "author": "Erwin Schrödinger",
-    "description": "A landmark 1944 lecture series by physicist Schrödinger that explored the physical and chemical nature of life and heredity. It directly inspired the scientists who later discovered the double helix structure of DNA.",
-    "category": "Science",
-    "available_quantity": 2,
-    "image_url": "https://covers.openlibrary.org/b/id/8406828-L.jpg"
-  },
-  {
-    "id": 86,
-    "title": "The Little Prince",
-    "author": "Antoine de Saint-Exupéry",
-    "description": "A beloved novella about a young prince who travels the universe and meets various characters, each representing adult absurdity and loneliness. A poetic meditation on friendship, love, and seeing with the heart.",
-    "category": "Story",
-    "available_quantity": 14,
-    "image_url": "https://covers.openlibrary.org/b/id/8406829-L.jpg"
-  },
-  {
-    "id": 87,
-    "title": "The DevOps Handbook",
-    "author": "Gene Kim, Jez Humble, Patrick Debois & John Willis",
-    "description": "A practical guide to implementing DevOps practices in your organization. Covers continuous integration, deployment pipelines, monitoring, and how to create a culture of collaboration between development and operations.",
-    "category": "Tech",
-    "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/10392593-L.jpg"
-  },
-  {
-    "id": 88,
-    "title": "The Hidden Life of Trees",
-    "author": "Peter Wohlleben",
-    "description": "A forester's surprising revelation that trees have social networks, communicate with each other through underground fungal connections, and care for their young. A life-changing perspective on the natural world.",
-    "category": "Science",
-    "available_quantity": 6,
-    "image_url": "https://covers.openlibrary.org/b/id/10392594-L.jpg"
-  },
-  {
-    "id": 89,
-    "title": "Beloved",
-    "author": "Toni Morrison",
-    "description": "A Pulitzer Prize-winning novel about an escaped slave haunted by the ghost of her dead daughter. A devastating and powerful work that explores the lingering trauma of slavery with lyrical intensity.",
-    "category": "Story",
-    "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/8406830-L.jpg"
-  },
-  {
-    "id": 90,
-    "title": "High Performance Browser Networking",
-    "author": "Ilya Grigorik",
-    "description": "A deep technical dive into how the web works under the hood, covering TCP, UDP, HTTP, WebSocket, and WebRTC. Essential for developers who want to build faster and more reliable web applications.",
-    "category": "Tech",
-    "available_quantity": 4,
-    "image_url": "https://covers.openlibrary.org/b/id/8406831-L.jpg"
-  },
-  {
-    "id": 91,
-    "title": "The Blind Watchmaker",
-    "author": "Richard Dawkins",
-    "description": "A compelling argument for the power of natural selection to explain the complexity and diversity of life, using the metaphor of a blind watchmaker who builds without foresight. A cornerstone of popular science.",
-    "category": "Science",
-    "available_quantity": 4,
-    "image_url": "https://covers.openlibrary.org/b/id/8406832-L.jpg"
-  },
-  {
-    "id": 92,
-    "title": "The Shadow of the Wind",
-    "author": "Carlos Ruiz Zafón",
-    "description": "A Gothic mystery set in post-war Barcelona, where a young boy discovers a novel by a forgotten author and becomes obsessed with uncovering the mystery of his life and disappearance. A love letter to books and storytelling.",
-    "category": "Story",
-    "available_quantity": 7,
-    "image_url": "https://covers.openlibrary.org/b/id/8406833-L.jpg"
-  },
-  {
-    "id": 93,
-    "title": "Site Reliability Engineering",
-    "author": "Betsy Beyer, Chris Jones, Jennifer Petoff & Niall Murphy",
-    "description": "Google's guide to how they run production systems reliably at massive scale. Covers error budgets, SLOs, monitoring, incident response, and the principles that define the SRE discipline.",
-    "category": "Tech",
-    "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/10392595-L.jpg"
-  },
-  {
-    "id": 94,
-    "title": "Gödel, Escher, Bach",
-    "author": "Douglas R. Hofstadter",
-    "description": "A Pulitzer Prize-winning exploration of consciousness, self-reference, and meaning, weaving together mathematics, art, and music. One of the most creative and mind-bending books ever written about science and philosophy.",
-    "category": "Science",
-    "available_quantity": 3,
-    "image_url": "https://covers.openlibrary.org/b/id/8406834-L.jpg"
-  },
-  {
-    "id": 95,
-    "title": "The Pillars of the Earth",
-    "author": "Ken Follett",
-    "description": "An epic historical novel set in 12th-century England, following the construction of a cathedral against a backdrop of war, love, and political intrigue. A sweeping saga of ambition, faith, and architectural beauty.",
-    "category": "Story",
-    "available_quantity": 8,
-    "image_url": "https://covers.openlibrary.org/b/id/8406835-L.jpg"
-  },
-  {
-    "id": 96,
-    "title": "Hands-On Machine Learning with Scikit-Learn and TensorFlow",
-    "author": "Aurélien Géron",
-    "description": "A practical guide to building machine learning and deep learning systems using Python's leading frameworks. Covers regression, classification, neural networks, and deployment with concrete, hands-on examples.",
-    "category": "Tech",
-    "available_quantity": 7,
-    "image_url": "https://covers.openlibrary.org/b/id/10392596-L.jpg"
-  },
-  {
-    "id": 97,
-    "title": "The Order of Time",
-    "author": "Carlo Rovelli",
-    "description": "A short, poetic meditation on the nature of time by a theoretical physicist. Rovelli argues that time as we experience it is an illusion, a product of our perspective, and challenges our most basic assumptions about reality.",
-    "category": "Science",
-    "available_quantity": 5,
-    "image_url": "https://covers.openlibrary.org/b/id/10909261-L.jpg"
-  },
-  {
-    "id": 98,
-    "title": "The Trial",
-    "author": "Franz Kafka",
-    "description": "A nightmarish allegorical novel in which Josef K. is arrested and prosecuted by an inaccessible authority for an unspecified crime. A profound exploration of bureaucracy, alienation, and the absurdity of modern life.",
-    "category": "Story",
-    "available_quantity": 4,
-    "image_url": "https://covers.openlibrary.org/b/id/8406836-L.jpg"
-  },
-  {
-    "id": 99,
-    "title": "TypeScript Handbook",
-    "author": "Microsoft Team",
-    "description": "The official and comprehensive guide to TypeScript, covering types, interfaces, generics, decorators, and advanced type patterns. The definitive resource for JavaScript developers adopting TypeScript in their projects.",
-    "category": "Tech",
-    "available_quantity": 10,
-    "image_url": "https://covers.openlibrary.org/b/id/8406837-L.jpg"
-  },
-  {
-    "id": 100,
-    "title": "The Universe in a Nutshell",
-    "author": "Stephen Hawking",
-    "description": "A beautifully illustrated companion to A Brief History of Time, exploring supergravity, quantum theory, and the possibility of predicting the future. Hawking makes the frontiers of theoretical physics accessible and exciting.",
-    "category": "Science",
-    "available_quantity": 6,
-    "image_url": "https://covers.openlibrary.org/b/id/8739162-L.jpg"
-  }
-]
+    {
+      "id": 1,
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "description": "A magical story about a library that exists between life and death, where every book represents a different life the protagonist could have lived.",
+      "category": "Story",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780525559474-L.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "description": "A handbook of agile software craftsmanship that teaches programmers how to write readable, maintainable, and elegant code.",
+      "category": "Tech",
+      "available_quantity": 8,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg"
+    },
+    {
+      "id": 3,
+      "title": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "description": "A landmark volume in science writing that explores the origin and fate of the universe, black holes, and the nature of time itself.",
+      "category": "Science",
+      "available_quantity": 4,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "description": "A lone astronaut wakes up millions of miles from Earth with no memory of how he got there, only to discover he is humanity's last hope against an extinction-level threat.",
+      "category": "Story",
+      "available_quantity": 6,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780593135204-L.jpg"
+    },
+    {
+      "id": 5,
+      "title": "You Don't Know JS Yet",
+      "author": "Kyle Simpson",
+      "description": "A deep dive into the core mechanisms of the JavaScript language, unraveling its most misunderstood features.",
+      "category": "Tech",
+      "available_quantity": 10,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781491904244-L.jpg"
+    },
+    {
+      "id": 6,
+      "title": "The Selfish Gene",
+      "author": "Richard Dawkins",
+      "description": "A revolutionary view of evolution from the gene's perspective, introducing concepts like the selfish gene and meme.",
+      "category": "Science",
+      "available_quantity": 3,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780198788607-L.jpg"
+    },
+    {
+      "id": 7,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "description": "Set in the American South during the 1930s, this Pulitzer Prize-winning novel follows young Scout Finch as her father defends a Black man unjustly accused of a crime.",
+      "category": "Story",
+      "available_quantity": 7,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780061935466-L.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Designing Data-Intensive Applications",
+      "author": "Martin Kleppmann",
+      "description": "An in-depth exploration of the principles, practices, and challenges behind scalable and reliable data systems.",
+      "category": "Tech",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781449373320-L.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Cosmos",
+      "author": "Carl Sagan",
+      "description": "A breathtaking journey through the universe that connects the story of science with the story of humanity.",
+      "category": "Science",
+      "available_quantity": 6,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780345539435-L.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "description": "A fable about following your dreams, following a young shepherd's journey from Spain to Egypt in pursuit of a worldly treasure.",
+      "category": "Story",
+      "available_quantity": 9,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780062315007-L.jpg"
+    },
+    {
+      "id": 11,
+      "title": "The Pragmatic Programmer",
+      "author": "David Thomas & Andrew Hunt",
+      "description": "A collection of practical tips and philosophies for modern software development covering career advice to coding techniques.",
+      "category": "Tech",
+      "available_quantity": 4,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780135957059-L.jpg"
+    },
+    {
+      "id": 12,
+      "title": "The Gene: An Intimate History",
+      "author": "Siddhartha Mukherjee",
+      "description": "A masterful exploration of the history, science, and future of genetics, from Mendel's peas to CRISPR gene editing.",
+      "category": "Science",
+      "available_quantity": 2,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781476733500-L.jpg"
+    },
+    {
+      "id": 13,
+      "title": "1984",
+      "author": "George Orwell",
+      "description": "A dystopian masterpiece set in a totalitarian future where Big Brother watches everyone and Winston Smith rebels against the Party.",
+      "category": "Story",
+      "available_quantity": 11,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg"
+    },
+    {
+      "id": 14,
+      "title": "JavaScript: The Good Parts",
+      "author": "Douglas Crockford",
+      "description": "A concise guide to the best features of JavaScript, cutting through the language's inconsistencies to reveal the elegant, powerful subset at its core.",
+      "category": "Tech",
+      "available_quantity": 7,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780596517748-L.jpg"
+    },
+    {
+      "id": 15,
+      "title": "The Origin of Species",
+      "author": "Charles Darwin",
+      "description": "Darwin's groundbreaking work that introduced the theory of evolution by natural selection, forever changing our understanding of life on Earth.",
+      "category": "Science",
+      "available_quantity": 3,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780140432053-L.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "description": "A chilling vision of a future society where humans are engineered and conditioned for happiness at the cost of freedom and individuality.",
+      "category": "Story",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780060850524-L.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Introduction to Algorithms",
+      "author": "Cormen, Leiserson, Rivest & Stein",
+      "description": "The definitive textbook on algorithms, covering sorting, searching, graph theory, and dynamic programming. Known as CLRS worldwide.",
+      "category": "Tech",
+      "available_quantity": 6,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780262033848-L.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "description": "A sweeping narrative of human history from the Stone Age to the present, examining how Homo sapiens came to dominate the planet.",
+      "category": "Science",
+      "available_quantity": 8,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg"
+    },
+    {
+      "id": 19,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": "A dazzling portrait of the Jazz Age, following the mysterious millionaire Jay Gatsby and his obsession with the beautiful Daisy Buchanan.",
+      "category": "Story",
+      "available_quantity": 9,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Structure and Interpretation of Computer Programs",
+      "author": "Harold Abelson & Gerald Sussman",
+      "description": "Known as SICP, this legendary MIT textbook teaches the fundamental principles of programming using Scheme.",
+      "category": "Tech",
+      "available_quantity": 4,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780262510875-L.jpg"
+    },
+    {
+      "id": 21,
+      "title": "The Double Helix",
+      "author": "James D. Watson",
+      "description": "A personal account of the discovery of DNA's structure, one of the greatest scientific breakthroughs of the 20th century.",
+      "category": "Science",
+      "available_quantity": 3,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780743216302-L.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "description": "A psychological thriller following Raskolnikov, a student who commits a murder and is tormented by guilt, exploring morality and redemption.",
+      "category": "Story",
+      "available_quantity": 4,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780486415871-L.jpg"
+    },
+    {
+      "id": 23,
+      "title": "The Linux Command Line",
+      "author": "William Shotts",
+      "description": "A comprehensive introduction to the Linux command line, teaching shell scripting, file management, and system administration.",
+      "category": "Tech",
+      "available_quantity": 7,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781593279523-L.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Silent Spring",
+      "author": "Rachel Carson",
+      "description": "The book that launched the modern environmental movement, documenting the devastating effects of pesticides on wildlife and ecosystems.",
+      "category": "Science",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780618249060-L.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "description": "An epic science fiction saga set on the desert planet Arrakis, following Paul Atreides through political intrigue and messianic destiny.",
+      "category": "Story",
+      "available_quantity": 10,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780441013593-L.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Deep Learning",
+      "author": "Ian Goodfellow, Yoshua Bengio & Aaron Courville",
+      "description": "The definitive textbook on deep learning, covering neural networks, optimization, convolutional networks, and generative models.",
+      "category": "Tech",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780262035613-L.jpg"
+    },
+    {
+      "id": 27,
+      "title": "The Elegant Universe",
+      "author": "Brian Greene",
+      "description": "An accessible exploration of string theory and the quest for a unified theory of everything bridging relativity and quantum mechanics.",
+      "category": "Science",
+      "available_quantity": 4,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780393338102-L.jpg"
+    },
+    {
+      "id": 28,
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "description": "A magical realist epic following seven generations of the Buendía family in the fictional town of Macondo. A Nobel Prize-winning masterpiece.",
+      "category": "Story",
+      "available_quantity": 6,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780060883287-L.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Computer Networks",
+      "author": "Andrew S. Tanenbaum",
+      "description": "A comprehensive textbook on computer networking, covering protocols, TCP/IP, wireless networks, and security.",
+      "category": "Tech",
+      "available_quantity": 6,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780132126953-L.jpg"
+    },
+    {
+      "id": 30,
+      "title": "The Emperor of All Maladies",
+      "author": "Siddhartha Mukherjee",
+      "description": "A Pulitzer Prize-winning biography of cancer, tracing the disease's history from ancient Egypt to modern targeted therapies.",
+      "category": "Science",
+      "available_quantity": 3,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781439170915-L.jpg"
+    },
+    {
+      "id": 31,
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "description": "A hilarious and absurdist sci-fi comedy following Arthur Dent after Earth is demolished to make way for a hyperspace bypass.",
+      "category": "Story",
+      "available_quantity": 12,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780345391803-L.jpg"
+    },
+    {
+      "id": 32,
+      "title": "Operating System Concepts",
+      "author": "Silberschatz, Galvin & Gagne",
+      "description": "Known as the Dinosaur Book, this is the most widely used textbook for operating systems courses worldwide.",
+      "category": "Tech",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781118063330-L.jpg"
+    },
+    {
+      "id": 33,
+      "title": "The Feynman Lectures on Physics",
+      "author": "Richard P. Feynman",
+      "description": "A legendary three-volume series based on Feynman's undergraduate physics lectures at Caltech, celebrated for clarity and depth.",
+      "category": "Science",
+      "available_quantity": 2,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780465023820-L.jpg"
+    },
+    {
+      "id": 34,
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "description": "A powerful story of friendship, betrayal, and redemption set against the backdrop of Afghanistan's turbulent history.",
+      "category": "Story",
+      "available_quantity": 8,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781594631931-L.jpg"
+    },
+    {
+      "id": 35,
+      "title": "Cracking the Coding Interview",
+      "author": "Gayle Laakmann McDowell",
+      "description": "The essential guide for software engineers preparing for technical interviews at top tech companies with 189 programming questions.",
+      "category": "Tech",
+      "available_quantity": 9,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780984782857-L.jpg"
+    },
+    {
+      "id": 36,
+      "title": "The Immortal Life of Henrietta Lacks",
+      "author": "Rebecca Skloot",
+      "description": "The remarkable true story of a Black woman whose cancer cells became one of the most important tools in medicine without her knowledge.",
+      "category": "Science",
+      "available_quantity": 4,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781400052189-L.jpg"
+    },
+    {
+      "id": 37,
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "description": "Dostoevsky's final and greatest novel, a profound exploration of faith, doubt, morality through the story of three brothers.",
+      "category": "Story",
+      "available_quantity": 3,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780374528379-L.jpg"
+    },
+    {
+      "id": 38,
+      "title": "Design Patterns",
+      "author": "Gang of Four",
+      "description": "The seminal book presenting 23 classic patterns for solving common object-oriented design problems that influenced software development for decades.",
+      "category": "Tech",
+      "available_quantity": 6,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780201633610-L.jpg"
+    },
+    {
+      "id": 39,
+      "title": "Pale Blue Dot",
+      "author": "Carl Sagan",
+      "description": "Inspired by the famous photograph of Earth from Voyager 1, Sagan reflects on humanity's place in the cosmos.",
+      "category": "Science",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780345376596-L.jpg"
+    },
+    {
+      "id": 40,
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "description": "A bleak and beautiful post-apocalyptic novel about a father and son walking through a devastated America. A Pulitzer Prize winner.",
+      "category": "Story",
+      "available_quantity": 7,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780307387899-L.jpg"
+    },
+    {
+      "id": 41,
+      "title": "Python Crash Course",
+      "author": "Eric Matthes",
+      "description": "A fast-paced, hands-on introduction to programming with Python, moving into building real-world projects like games and web apps.",
+      "category": "Tech",
+      "available_quantity": 11,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781593279288-L.jpg"
+    },
+    {
+      "id": 42,
+      "title": "The Body: A Guide for Occupants",
+      "author": "Bill Bryson",
+      "description": "A witty and fascinating tour of the human body, covering bones, muscles, and the brain. Bryson makes complex biology accessible.",
+      "category": "Science",
+      "available_quantity": 6,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780385539302-L.jpg"
+    },
+    {
+      "id": 43,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "description": "The epic tale of Captain Ahab's obsessive quest to hunt the white whale Moby Dick. A monumental work of American literature.",
+      "category": "Story",
+      "available_quantity": 4,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781503280786-L.jpg"
+    },
+    {
+      "id": 44,
+      "title": "The Art of Computer Programming",
+      "author": "Donald E. Knuth",
+      "description": "A comprehensive multi-volume series covering fundamental algorithms and data structures. Knuth's magnum opus in computer science.",
+      "category": "Tech",
+      "available_quantity": 3,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780201485417-L.jpg"
+    },
+    {
+      "id": 45,
+      "title": "The Sixth Extinction",
+      "author": "Elizabeth Kolbert",
+      "description": "A Pulitzer Prize-winning account of the ongoing mass extinction of species caused by human activity.",
+      "category": "Science",
+      "available_quantity": 4,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781250062185-L.jpg"
+    },
+    {
+      "id": 46,
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "description": "Often called the first modern novel, following a man who sets out as a knight-errant with his faithful squire Sancho Panza.",
+      "category": "Story",
+      "available_quantity": 3,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780142437230-L.jpg"
+    },
+    {
+      "id": 47,
+      "title": "Head First Design Patterns",
+      "author": "Eric Freeman & Elisabeth Robson",
+      "description": "A visually rich, brain-friendly guide to design patterns using real-world scenarios, puzzles, and humor.",
+      "category": "Tech",
+      "available_quantity": 7,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780596007126-L.jpg"
+    },
+    {
+      "id": 48,
+      "title": "Astrophysics for People in a Hurry",
+      "author": "Neil deGrasse Tyson",
+      "description": "A concise and engaging overview of the universe's greatest mysteries, from the Big Bang and dark matter to dark energy.",
+      "category": "Science",
+      "available_quantity": 8,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780393609394-L.jpg"
+    },
+    {
+      "id": 49,
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "description": "A sweeping Russian novel about the tragic love affair between the married aristocrat Anna Karenina and the dashing Count Vronsky.",
+      "category": "Story",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780143035008-L.jpg"
+    },
+    {
+      "id": 50,
+      "title": "Computer Organization and Architecture",
+      "author": "William Stallings",
+      "description": "A thorough introduction to computer systems design, covering processors, memory hierarchy, instruction sets, and parallel processing.",
+      "category": "Tech",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780134101613-L.jpg"
+    },
+    {
+      "id": 51,
+      "title": "The Innovators",
+      "author": "Walter Isaacson",
+      "description": "A history of the digital revolution tracing the visionaries who created the computer and the internet, from Ada Lovelace to Steve Jobs.",
+      "category": "Tech",
+      "available_quantity": 6,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781476708706-L.jpg"
+    },
+    {
+      "id": 52,
+      "title": "The Andromeda Strain",
+      "author": "Michael Crichton",
+      "description": "A gripping techno-thriller about a team of scientists racing to contain a deadly alien microorganism that wiped out an entire town.",
+      "category": "Story",
+      "available_quantity": 7,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780061703157-L.jpg"
+    },
+    {
+      "id": 53,
+      "title": "The Code Book",
+      "author": "Simon Singh",
+      "description": "A fascinating history of cryptography from ancient Egypt to the modern age, covering Caesar ciphers, Enigma, and public-key cryptography.",
+      "category": "Science",
+      "available_quantity": 4,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780385495325-L.jpg"
+    },
+    {
+      "id": 54,
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "description": "A dystopian novel set in a future where books are banned and firemen burn any that are found, warning about censorship and conformity.",
+      "category": "Story",
+      "available_quantity": 8,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781451673319-L.jpg"
+    },
+    {
+      "id": 55,
+      "title": "Refactoring",
+      "author": "Martin Fowler",
+      "description": "The essential guide to improving the design of existing code without changing its behavior. Indispensable for any developer.",
+      "category": "Tech",
+      "available_quantity": 6,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780134757599-L.jpg"
+    },
+    {
+      "id": 56,
+      "title": "The Quantum World",
+      "author": "Kenneth W. Ford",
+      "description": "An accessible introduction to quantum mechanics explaining superposition, entanglement, and the uncertainty principle without heavy math.",
+      "category": "Science",
+      "available_quantity": 3,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780674013889-L.jpg"
+    },
+    {
+      "id": 57,
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "description": "An epic masterpiece following ex-convict Jean Valjean across decades of French history, exploring justice, love, and redemption.",
+      "category": "Story",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780451419439-L.jpg"
+    },
+    {
+      "id": 58,
+      "title": "React Up and Running",
+      "author": "Stoyan Stefanov",
+      "description": "A practical guide to building modern web applications with React, covering components, state management, and hooks.",
+      "category": "Tech",
+      "available_quantity": 8,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781491931820-L.jpg"
+    },
+    {
+      "id": 59,
+      "title": "The Periodic Table",
+      "author": "Primo Levi",
+      "description": "A unique blend of memoir and chemistry where each chapter is named after a chemical element, reflecting on Levi's life as a Holocaust survivor.",
+      "category": "Science",
+      "available_quantity": 3,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780805210415-L.jpg"
+    },
+    {
+      "id": 60,
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas",
+      "description": "An adventure novel of betrayal and elaborate revenge, following Edmond Dantès who escapes wrongful imprisonment to exact justice.",
+      "category": "Story",
+      "available_quantity": 10,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780140449266-L.jpg"
+    },
+    {
+      "id": 61,
+      "title": "Docker Deep Dive",
+      "author": "Nigel Poulton",
+      "description": "A clear and concise guide to Docker containers, covering images, networking, volumes, and Docker Compose for DevOps engineers.",
+      "category": "Tech",
+      "available_quantity": 7,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781521822807-L.jpg"
+    },
+    {
+      "id": 62,
+      "title": "The Man Who Knew Infinity",
+      "author": "Robert Kanigel",
+      "description": "The biography of mathematical genius Srinivasa Ramanujan and his legendary collaboration with Cambridge mathematician G.H. Hardy.",
+      "category": "Science",
+      "available_quantity": 4,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781476763491-L.jpg"
+    },
+    {
+      "id": 63,
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "description": "A short novel about an aging Cuban fisherman's epic struggle with a giant marlin, meditating on endurance and human dignity.",
+      "category": "Story",
+      "available_quantity": 6,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780684801223-L.jpg"
+    },
+    {
+      "id": 64,
+      "title": "Learning SQL",
+      "author": "Alan Beaulieu",
+      "description": "A comprehensive introduction to SQL covering database design, querying, filtering, aggregating, and joining data professionally.",
+      "category": "Tech",
+      "available_quantity": 9,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781492057611-L.jpg"
+    },
+    {
+      "id": 65,
+      "title": "The Structure of Scientific Revolutions",
+      "author": "Thomas S. Kuhn",
+      "description": "A landmark work introducing the concept of the paradigm shift, arguing science progresses through periodic revolutionary upheavals.",
+      "category": "Science",
+      "available_quantity": 3,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780226458120-L.jpg"
+    },
+    {
+      "id": 66,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "description": "A beloved classic following the spirited Elizabeth Bennet as she navigates manners, morality, and marriage in 19th-century England.",
+      "category": "Story",
+      "available_quantity": 12,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg"
+    },
+    {
+      "id": 67,
+      "title": "Kubernetes in Action",
+      "author": "Marko Lukša",
+      "description": "A comprehensive guide to Kubernetes, covering pods, services, deployments, and cluster management for container orchestration at scale.",
+      "category": "Tech",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781617293726-L.jpg"
+    },
+    {
+      "id": 68,
+      "title": "The Demon-Haunted World",
+      "author": "Carl Sagan",
+      "description": "A passionate defense of scientific thinking and skepticism, arguing that science is a candle in the dark against superstition.",
+      "category": "Science",
+      "available_quantity": 6,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780345409461-L.jpg"
+    },
+    {
+      "id": 69,
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "description": "The first volume of the Kingkiller Chronicle, following the legendary wizard Kvothe with beautiful world-building and narrative voice.",
+      "category": "Story",
+      "available_quantity": 8,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780756404079-L.jpg"
+    },
+    {
+      "id": 70,
+      "title": "CSS: The Definitive Guide",
+      "author": "Eric Meyer & Estelle Weyl",
+      "description": "The most comprehensive reference for CSS, covering selectors, layout, animations, and the latest CSS features for web developers.",
+      "category": "Tech",
+      "available_quantity": 6,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781449393199-L.jpg"
+    },
+    {
+      "id": 71,
+      "title": "The Disappearing Spoon",
+      "author": "Sam Kean",
+      "description": "Captivating stories about the elements of the periodic table, blending history, biography, and science in a fascinating way.",
+      "category": "Science",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780316051637-L.jpg"
+    },
+    {
+      "id": 72,
+      "title": "Siddhartha",
+      "author": "Hermann Hesse",
+      "description": "A spiritual novel set in ancient India, following Siddhartha's journey seeking enlightenment through asceticism and meditation.",
+      "category": "Story",
+      "available_quantity": 7,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780553208849-L.jpg"
+    },
+    {
+      "id": 73,
+      "title": "The Phoenix Project",
+      "author": "Gene Kim, Kevin Behr & George Spafford",
+      "description": "A novel about IT and DevOps following an IT manager discovering principles that transform both technology and company culture.",
+      "category": "Tech",
+      "available_quantity": 7,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781942788294-L.jpg"
+    },
+    {
+      "id": 74,
+      "title": "Surely You're Joking, Mr. Feynman!",
+      "author": "Richard P. Feynman",
+      "description": "A collection of anecdotes from Nobel Prize-winning physicist Feynman, covering Los Alamos, bongo drums, and insatiable curiosity.",
+      "category": "Science",
+      "available_quantity": 8,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780393316049-L.jpg"
+    },
+    {
+      "id": 75,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "description": "The iconic coming-of-age novel narrated by the rebellious Holden Caulfield as he wanders New York City after being expelled.",
+      "category": "Story",
+      "available_quantity": 9,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780316769174-L.jpg"
+    },
+    {
+      "id": 76,
+      "title": "Test-Driven Development",
+      "author": "Kent Beck",
+      "description": "The foundational book on TDD demonstrating how writing tests before code leads to cleaner design and fewer bugs.",
+      "category": "Tech",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780321146533-L.jpg"
+    },
+    {
+      "id": 77,
+      "title": "The Hot Zone",
+      "author": "Richard Preston",
+      "description": "A terrifying true story about the emergence of the Ebola virus in the United States in 1989, reading like a thriller but entirely real.",
+      "category": "Science",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780385479561-L.jpg"
+    },
+    {
+      "id": 78,
+      "title": "Flowers for Algernon",
+      "author": "Daniel Keyes",
+      "description": "A deeply moving science fiction story told through journal entries of Charlie Gordon, a man whose intellectual disability is surgically reversed.",
+      "category": "Story",
+      "available_quantity": 6,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780156030304-L.jpg"
+    },
+    {
+      "id": 79,
+      "title": "Eloquent JavaScript",
+      "author": "Marijn Haverbeke",
+      "description": "A modern and comprehensive introduction to JavaScript covering asynchronous programming, the browser DOM, and Node.js.",
+      "category": "Tech",
+      "available_quantity": 8,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781593275846-L.jpg"
+    },
+    {
+      "id": 80,
+      "title": "The Soul of a New Machine",
+      "author": "Tracy Kidder",
+      "description": "A Pulitzer Prize-winning account of computer development at Data General in the late 1970s, a gripping portrait of engineering culture.",
+      "category": "Science",
+      "available_quantity": 3,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780316491976-L.jpg"
+    },
+    {
+      "id": 81,
+      "title": "Slaughterhouse-Five",
+      "author": "Kurt Vonnegut",
+      "description": "A satirical anti-war novel following Billy Pilgrim who becomes unstuck in time after surviving the firebombing of Dresden.",
+      "category": "Story",
+      "available_quantity": 7,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780385333481-L.jpg"
+    },
+    {
+      "id": 82,
+      "title": "Building Microservices",
+      "author": "Sam Newman",
+      "description": "The definitive guide to microservices architecture, covering service decomposition, communication patterns, deployment, and security.",
+      "category": "Tech",
+      "available_quantity": 6,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781492034025-L.jpg"
+    },
+    {
+      "id": 83,
+      "title": "The Martian",
+      "author": "Andy Weir",
+      "description": "An astronaut stranded alone on Mars must use ingenuity and scientific knowledge to survive. A witty, technically accurate tale.",
+      "category": "Story",
+      "available_quantity": 10,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780553418026-L.jpg"
+    },
+    {
+      "id": 84,
+      "title": "Zero to One",
+      "author": "Peter Thiel",
+      "description": "Notes on startups and how to build the future by PayPal co-founder Peter Thiel, challenging conventional thinking about innovation.",
+      "category": "Tech",
+      "available_quantity": 7,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780804139021-L.jpg"
+    },
+    {
+      "id": 85,
+      "title": "What Is Life?",
+      "author": "Erwin Schrödinger",
+      "description": "A landmark 1944 lecture series exploring the physical and chemical nature of life that inspired the discovery of DNA's double helix.",
+      "category": "Science",
+      "available_quantity": 2,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781107604667-L.jpg"
+    },
+    {
+      "id": 86,
+      "title": "The Little Prince",
+      "author": "Antoine de Saint-Exupéry",
+      "description": "A beloved novella about a young prince travelling the universe meeting characters representing adult absurdity and loneliness.",
+      "category": "Story",
+      "available_quantity": 14,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780156012195-L.jpg"
+    },
+    {
+      "id": 87,
+      "title": "The DevOps Handbook",
+      "author": "Gene Kim, Jez Humble, Patrick Debois & John Willis",
+      "description": "A practical guide to implementing DevOps practices covering CI/CD pipelines, monitoring, and collaboration culture.",
+      "category": "Tech",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781942788003-L.jpg"
+    },
+    {
+      "id": 88,
+      "title": "The Hidden Life of Trees",
+      "author": "Peter Wohlleben",
+      "description": "A forester reveals that trees have social networks, communicate through underground fungi, and care for their young.",
+      "category": "Science",
+      "available_quantity": 6,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781771642484-L.jpg"
+    },
+    {
+      "id": 89,
+      "title": "Beloved",
+      "author": "Toni Morrison",
+      "description": "A Pulitzer Prize-winning novel about an escaped slave haunted by the ghost of her dead daughter, exploring trauma of slavery.",
+      "category": "Story",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781400033416-L.jpg"
+    },
+    {
+      "id": 90,
+      "title": "High Performance Browser Networking",
+      "author": "Ilya Grigorik",
+      "description": "A deep technical dive into how the web works covering TCP, UDP, HTTP, WebSocket, and WebRTC for faster web applications.",
+      "category": "Tech",
+      "available_quantity": 4,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781449344764-L.jpg"
+    },
+    {
+      "id": 91,
+      "title": "The Blind Watchmaker",
+      "author": "Richard Dawkins",
+      "description": "A compelling argument for natural selection's power to explain life's complexity using the metaphor of a blind watchmaker.",
+      "category": "Science",
+      "available_quantity": 4,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780393351491-L.jpg"
+    },
+    {
+      "id": 92,
+      "title": "The Shadow of the Wind",
+      "author": "Carlos Ruiz Zafón",
+      "description": "A Gothic mystery set in post-war Barcelona where a young boy becomes obsessed with uncovering a forgotten author's mysterious disappearance.",
+      "category": "Story",
+      "available_quantity": 7,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780143034902-L.jpg"
+    },
+    {
+      "id": 93,
+      "title": "Site Reliability Engineering",
+      "author": "Betsy Beyer, Chris Jones, Jennifer Petoff & Niall Murphy",
+      "description": "Google's guide to running production systems reliably at massive scale, covering SLOs, monitoring, and incident response.",
+      "category": "Tech",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781491929124-L.jpg"
+    },
+    {
+      "id": 94,
+      "title": "Gödel, Escher, Bach",
+      "author": "Douglas R. Hofstadter",
+      "description": "A Pulitzer Prize-winning exploration of consciousness, self-reference, and meaning weaving together mathematics, art, and music.",
+      "category": "Science",
+      "available_quantity": 3,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780465026562-L.jpg"
+    },
+    {
+      "id": 95,
+      "title": "The Pillars of the Earth",
+      "author": "Ken Follett",
+      "description": "An epic historical novel set in 12th-century England following the construction of a cathedral against a backdrop of war and love.",
+      "category": "Story",
+      "available_quantity": 8,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780451166890-L.jpg"
+    },
+    {
+      "id": 96,
+      "title": "Hands-On Machine Learning with Scikit-Learn and TensorFlow",
+      "author": "Aurélien Géron",
+      "description": "A practical guide to building machine learning systems covering regression, classification, neural networks, and deployment.",
+      "category": "Tech",
+      "available_quantity": 7,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781492032649-L.jpg"
+    },
+    {
+      "id": 97,
+      "title": "The Order of Time",
+      "author": "Carlo Rovelli",
+      "description": "A poetic meditation on the nature of time by a theoretical physicist, arguing that time as we experience it is an illusion.",
+      "category": "Science",
+      "available_quantity": 5,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780735216112-L.jpg"
+    },
+    {
+      "id": 98,
+      "title": "The Trial",
+      "author": "Franz Kafka",
+      "description": "A nightmarish allegorical novel in which Josef K. is arrested by an inaccessible authority for an unspecified crime, exploring bureaucracy and alienation.",
+      "category": "Story",
+      "available_quantity": 4,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780805209990-L.jpg"
+    },
+    {
+      "id": 99,
+      "title": "TypeScript Handbook",
+      "author": "Microsoft Team",
+      "description": "The official and comprehensive guide to TypeScript covering types, interfaces, generics, decorators, and advanced type patterns.",
+      "category": "Tech",
+      "available_quantity": 10,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9781098110338-L.jpg"
+    },
+    {
+      "id": 100,
+      "title": "The Universe in a Nutshell",
+      "author": "Stephen Hawking",
+      "description": "A beautifully illustrated companion to A Brief History of Time exploring supergravity, quantum theory, and predicting the future.",
+      "category": "Science",
+      "available_quantity": 6,
+      "image_url": "https://covers.openlibrary.org/b/isbn/9780553802023-L.jpg"
+    }
+  ]
 }

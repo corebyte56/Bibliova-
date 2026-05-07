@@ -9,7 +9,7 @@ const BookCards = ({ book }) => {
     <div className="group bg-white/80 backdrop-blur border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
 
       {/* Image */}
-      <div className="relative h-56 w-full">
+      <div className="relative h-60  w-full">
         <Image
           src={book.image_url}
           alt={book.title}
