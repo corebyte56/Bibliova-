@@ -1,4 +1,5 @@
-[
+{
+  "books": [
   {
     "id": 1,
     "title": "The Midnight Library",
@@ -900,3 +901,4 @@
     "image_url": "https://covers.openlibrary.org/b/id/8739162-L.jpg"
   }
 ]
+}
