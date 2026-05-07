@@ -4,8 +4,8 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 async function getBooks() {
-  const res = await fetch("http://localhost:5001/books", {
-    cache: "no-store",
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/books`, {
+  cache: "no-store",
   });
 
   return res.json();
