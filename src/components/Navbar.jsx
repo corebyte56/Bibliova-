@@ -16,6 +16,8 @@ export default function Navbar() {
           {[
             { name: "Home", path: "/" },
             { name: "All Books", path: "/Books" },
+            { name: "Why Choose Us", path: "/WhyChooseUs" },
+            { name: "Contact Us", path: "/ContactUs" },
             { name: "My Profile", path: "/Profile" },
           ].map((item) => (
             <NavLink
@@ -56,24 +58,16 @@ export default function Navbar() {
                 </Drawer.Header>
                 <Drawer.Body>
                   <div className="relative ml-auto h-full p-6 flex flex-col gap-5 ">
-                    <NavLink href="/" >
-                      Home
-                    </NavLink>
-                    <NavLink href="/Books" >
-                      All Books
-                    </NavLink>
-                    <NavLink href="/Profile" >
-                      My Profile
-                    </NavLink>
+                    <NavLink href="/">Home</NavLink>
+                    <NavLink href="/Books">All Books</NavLink>
+                    <NavLink href="/Profile">My Profile</NavLink>
+                    <NavLink href="/WhyChooseUs">Why Choose Us</NavLink>
+                    <NavLink href="/ContactUs">Contact Us</NavLink>
 
                     <hr className="border-[#0F6E56]" />
 
-                    <NavLink href="/login">
-                      Login
-                    </NavLink>
-                    <NavLink href="/logout" >
-                      Logout
-                    </NavLink>
+                    <NavLink href="/login">Login</NavLink>
+                    <NavLink href="/logout">Logout</NavLink>
                   </div>
                 </Drawer.Body>
                 <Drawer.Footer>

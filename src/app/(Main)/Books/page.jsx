@@ -22,14 +22,7 @@ export default function BooksPage() {
       </div>
 
       <div className="mt-6 text-center">
-        <NavLink
-          href="/Books"
-          className="px-5 py-2 bg-black text-white rounded"
-        >
-          <Button className="px-5 py-2 bg-black text-white rounded">
-            View All Books
-          </Button>
-        </NavLink>
+      
       </div>
     </div>
     </div>
