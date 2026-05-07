@@ -5,7 +5,7 @@ import NavLink from "./NavLink";
 
 export default function Navbar() {
   return (
-    <nav className="bg-[#085041] text-[#E1F5EE] px-6 py-4">
+    <nav className="bg-[#085041] text-[#E1F5EE] px-6 py-4 sticky top-0 z-50 shadow-md">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <NavLink href="/" className="text-2xl font-bold">
