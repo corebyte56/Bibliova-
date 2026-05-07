@@ -1,3 +1,4 @@
+'use client';
 import NavLink from "@/components/NavLink";
 import Image from "next/image";
 import React from "react";
@@ -46,7 +47,7 @@ const BookCards = ({ book }) => {
 
         <div className="flex items-center justify-between mt-5">
           <NavLink href={`/books/${book.id}`} className="inline-block">
-            <button className="px-4 py-2 text-sm font-medium rounded-xl bg-[#085041] text-white hover:bg-[#0a6a55] transition">
+            <button className="px-4 py-2 text-sm font-medium rounded-xl bg-[#085041] text-white hover:bg-[#0a6a55] transition cursor-pointer">
             View Details
           </button>
           </NavLink>
