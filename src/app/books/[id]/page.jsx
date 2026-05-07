@@ -1,4 +1,7 @@
 import Image from "next/image";
+import BorrowButtons from "@/components/BorrowButtons";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 async function getBooks() {
   const res = await fetch("http://localhost:5001/books", {
@@ -13,9 +16,7 @@ const BookDetailsPage = async ({ params }) => {
 
   const books = await getBooks();
 
-  const singleBook = books.find(
-    (book) => book.id.toString() === id
-  );
+  const singleBook = books.find((book) => book.id.toString() === id);
 
   console.log(singleBook);
 
@@ -31,7 +32,6 @@ const BookDetailsPage = async ({ params }) => {
     <section className=" bg-gradient-to-br from-[#f5f7f2] via-[#eef5f2] to-[#f8f3eb] py-16 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-14 items-center">
-
           {/* Left Image */}
           <div className="relative group">
             <div className="absolute -inset-4 bg-gradient-to-r from-[#085041]/30 to-[#EF9F27]/30 blur-3xl opacity-40 rounded-[40px]"></div>
@@ -92,17 +92,9 @@ const BookDetailsPage = async ({ params }) => {
             </div>
 
             {/* Buttons */}
-            <div className="flex flex-wrap gap-5 mt-12">
-              <button className="px-8 py-4 rounded-2xl bg-[#085041] text-white font-semibold hover:scale-105 hover:bg-[#0a6a55] transition-all duration-300 shadow-xl cursor-pointer">
-                Borrow Book
-              </button>
-
-              <button className="px-8 py-4 rounded-2xl border border-gray-300 bg-white/70 backdrop-blur-xl text-gray-700 font-semibold hover:bg-white hover:scale-105 transition-all duration-300 cursor-pointer">
-                ❤️ Add Wishlist
-              </button>
-            </div>
+            <BorrowButtons />
+            <ToastContainer position="top-right" autoClose={2000} />
           </div>
-
         </div>
       </div>
     </section>
