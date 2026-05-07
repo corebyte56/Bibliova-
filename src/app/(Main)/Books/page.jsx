@@ -80,7 +80,7 @@ export default function BooksPage() {
             <button
               key={cat}
               onClick={() => handleCategory(cat)}
-              className={`px-4 py-2 rounded-2xl text-sm font-medium transition-all border text-left ${
+              className={`px-4 py-2 rounded-2xl text-sm font-medium transition-all border text-left cursor-pointer ${
                 active === cat
                   ? "bg-[#085041] text-white border-[#085041]"
                   : "bg-white hover:bg-[#f3f7f5] text-gray-700 border-gray-200"
