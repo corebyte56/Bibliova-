@@ -29,7 +29,9 @@ const BookDetailsPage = async ({ params }) => {
   }
 
   return (
+    
     <section className=" bg-gradient-to-br from-[#f5f7f2] via-[#eef5f2] to-[#f8f3eb] py-16 px-6">
+      
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-14 items-center">
           {/* Left Image */}
