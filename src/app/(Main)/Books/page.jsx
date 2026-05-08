@@ -14,7 +14,7 @@ export default function BooksPage() {
 
   useEffect(() => {
     async function fetchBooks() {
-      const res = await fetch("http://localhost:5001/books", {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/books`, {
         cache: "no-store",
       });
       const data = await res.json();
@@ -38,16 +38,12 @@ export default function BooksPage() {
   // main filter function
   const applyFilter = (cat, searchText) => {
     let result =
-      cat === "All"
-        ? books
-        : books.filter((b) => b.category === cat);
+      cat === "All" ? books : books.filter((b) => b.category === cat);
 
     if (searchText) {
       const query = normalize(searchText);
 
-      result = result.filter((b) =>
-        normalize(b.title).includes(query)
-      );
+      result = result.filter((b) => normalize(b.title).includes(query));
     }
 
     setFilteredBooks(result);
@@ -67,13 +63,9 @@ export default function BooksPage() {
 
   return (
     <div className="flex min-h-screen">
-
       {/* Sidebar */}
       <aside className="w-64 h-screen sticky top-0 overflow-y-auto bg-white/70 backdrop-blur-xl border-r border-gray-200 p-6">
-
-        <h2 className="text-xl font-bold text-[#085041] mb-6">
-          📚 Categories
-        </h2>
+        <h2 className="text-xl font-bold text-[#085041] mb-6">📚 Categories</h2>
 
         <div className="flex flex-col gap-3">
           {categories.map((cat) => (
@@ -94,10 +86,8 @@ export default function BooksPage() {
 
       {/* Main */}
       <main className="flex-1 container mx-auto px-6 py-12">
-
         {/* SEARCH BAR + BUTTON */}
         <div className="mb-8 flex gap-3 max-w-xl">
-
           <div className="relative flex-1">
             <Input
               value={tempSearch}
@@ -107,8 +97,7 @@ export default function BooksPage() {
               classNames={{
                 inputWrapper:
                   "h-14 bg-white/60 backdrop-blur-xl border border-gray-200 rounded-2xl",
-                input:
-                  "text-gray-800 placeholder:text-gray-400",
+                input: "text-gray-800 placeholder:text-gray-400",
               }}
               startContent={<Search className="text-gray-500 w-5 h-5" />}
             />
@@ -122,16 +111,13 @@ export default function BooksPage() {
           </Button>
         </div>
 
-        <h2 className="text-2xl font-bold mb-5">
-          Featured Books
-        </h2>
+        <h2 className="text-2xl font-bold mb-5">Featured Books</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {filteredBooks.map((book) => (
             <BookCards key={book.id} book={book} />
           ))}
         </div>
-
       </main>
     </div>
   );
