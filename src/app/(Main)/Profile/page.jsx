@@ -3,17 +3,46 @@
 import Image from "next/image";
 import { Button } from "@heroui/react";
 import { Icon } from "@iconify/react";
+import { useSession, signOut } from "@/lib/auth-client";
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
 const Profile = () => {
+  const { data: session, isPending } = useSession();
+  const router = useRouter();
+
+  useEffect(() => {
+    if (!isPending && !session) {
+      router.push("/login");
+    }
+  }, [session, isPending, router]);
+
+  if (isPending) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <p className="text-gray-500">Loading...</p>
+      </div>
+    );
+  }
+
+  if (!session) return null;
+
   const user = {
-    name: "Shahariar Ahmed Fahim",
-    email: "fahim789m@gmail.com",
+    name: session.user.name,
+    email: session.user.email,
+    avatar: session.user.image || "https://i.ibb.co.com/0jqHpnp/avatar.png",
     role: "Premium Reader",
-    joined: "May 2026",
+    joined: new Date(session.user.createdAt).toLocaleDateString("en-US", {
+      month: "long",
+      year: "numeric",
+    }),
     borrowedBooks: 14,
     favoriteGenre: "Science Fiction",
-    avatar:
-      "https://i.ibb.co.com/0jqHpnp/avatar.png",
+  };
+
+  const handleLogout = async () => {
+    await signOut();
+    router.push("/login");
   };
 
   return (
@@ -231,5 +260,4 @@ const Profile = () => {
     </section>
   );
 };
-
 export default Profile;
