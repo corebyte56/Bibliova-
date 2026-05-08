@@ -1,36 +1,150 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📚 Bibliova
 
-## Getting Started
+A modern library management web application where users can browse books, manage their profile, and authenticate securely with email or Google.
 
-First, run the development server:
+🌐 **Live Site:** [bibliova.vercel.app](https://bibliova.vercel.app)
+
+---
+
+## ✨ Features
+
+- 🔐 Email & Password Authentication
+- 🔑 Google OAuth Login
+- 👤 User Profile with Edit functionality
+- 📚 Browse 100+ books with category filter & search
+- 📱 Fully Responsive (Mobile + Desktop)
+- 🔒 Protected routes (Profile page requires login)
+- 🚪 Conditional Navbar (Login/Logout based on session)
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| Framework | Next.js 14 (App Router) |
+| Auth | Better Auth |
+| Database | MongoDB Atlas |
+| UI Library | HeroUI |
+| Styling | Tailwind CSS |
+| Icons | Lucide React, Iconify |
+| Forms | React Hook Form |
+| API | JSON Server (Render) |
+| Deployment | Vercel |
+
+---
+
+## 📁 Project Structure
+
+```
+bibliova/
+├── app/
+│   ├── api/
+│   │   └── auth/
+│   │       └── [...all]/
+│   │           └── route.js        # Better Auth handler
+│   ├── Books/
+│   │   └── page.jsx                # All books with filter & search
+│   ├── Profile/
+│   │   └── page.jsx                # Protected profile page
+│   ├── login/
+│   │   └── page.jsx                # Login page
+│   ├── register/
+│   │   └── page.jsx                # Register page
+│   └── UI/
+│       └── BookCards.jsx           # Book card component
+├── components/
+│   ├── Navbar.jsx                  # Auth-aware navbar
+│   └── NavLink.jsx
+├── lib/
+│   ├── auth.js                     # Better Auth server config
+│   └── auth-client.js              # Better Auth client config
+└── public/
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- MongoDB Atlas account
+- Google Cloud Console project
+
+### Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/bibliova.git
+cd bibliova
+
+# Install dependencies
+npm install
+```
+
+### Environment Variables
+
+Create a `.env.local` file in the root:
+
+```env
+NEXT_PUBLIC_API_URL=http://localhost:5001
+MONGODB_URI=your_mongodb_connection_string
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+BETTER_AUTH_SECRET=your_random_secret_string
+BETTER_AUTH_URL=http://localhost:3000
+```
+
+### Run Locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔐 Authentication
 
-## Learn More
+Bibliova uses [Better Auth](https://better-auth.com) for authentication.
 
-To learn more about Next.js, take a look at the following resources:
+- **Email/Password** — Register and login with email
+- **Google OAuth** — One-click Google sign in
+- **Session management** — Navbar updates based on login state
+- **Protected routes** — Profile page redirects to login if not authenticated
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Google OAuth Setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Go to [Google Cloud Console](https://console.cloud.google.com)
+2. Create a new project
+3. Enable OAuth consent screen
+4. Create OAuth 2.0 credentials
+5. Add redirect URI: `http://localhost:3000/api/auth/callback/google`
+6. Copy Client ID and Secret to `.env.local`
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Vercel (Frontend)
+
+1. Push code to GitHub
+2. Import project in [Vercel](https://vercel.com)
+3. Add all environment variables in **Settings → Environment Variables**
+4. Update `BETTER_AUTH_URL` to your Vercel URL
+5. Deploy
+
+### Render (JSON Server API)
+
+1. Create a separate repo with `db.json` and `package.json`
+2. Set start command: `json-server --watch db.json --port 5001 --host 0.0.0.0`
+3. Deploy on [Render](https://render.com)
+4. Update `NEXT_PUBLIC_API_URL` in Vercel env variables
+
+---
+
+## 📄 License
+
+MIT License © 2026 Bibliova
