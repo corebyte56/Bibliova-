@@ -8,7 +8,6 @@ import { Icon } from "@iconify/react";
 import { authClient } from "@/lib/auth-client";
 
 const Register = () => {
-
   const [loading, setLoading] = useState(false);
   const [authError, setAuthError] = useState("");
 
@@ -23,19 +22,17 @@ const Register = () => {
   const password = watch("password");
 
   const onSubmit = async (data) => {
-
     setLoading(true);
     setAuthError("");
 
     try {
-
       const { name, email, password } = data;
 
       const { data: res, error } = await authClient.signUp.email({
         name,
         email,
         password,
-        callbackURL: "/",
+        callbackURL: "/login",
       });
 
       if (error) {
@@ -47,22 +44,16 @@ const Register = () => {
       console.log(res);
 
       reset();
-
     } catch (err) {
-
       console.log(err);
       setAuthError("Registration failed");
-
     } finally {
-
       setLoading(false);
-
     }
   };
 
   return (
     <section className="relative min-h-screen overflow-hidden flex items-center justify-center bg-gradient-to-br from-purple-100 via-white to-blue-100 px-4 py-10 sm:px-6">
-
       {/* Glow Background */}
       <div className="absolute w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] bg-purple-300 blur-3xl opacity-30 rounded-full top-0 right-0"></div>
 
@@ -70,7 +61,6 @@ const Register = () => {
 
       {/* Glass Card */}
       <div className="relative w-full max-w-md p-6 sm:p-10 rounded-[28px] bg-white/60 backdrop-blur-xl border border-white/40 shadow-2xl">
-
         {/* Title */}
         <h1 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-2">
           Create Account
@@ -89,7 +79,6 @@ const Register = () => {
 
         {/* Form */}
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
-
           {/* Name */}
           <div>
             <input
@@ -102,9 +91,7 @@ const Register = () => {
             />
 
             {errors.name && (
-              <p className="text-red-500 text-sm mt-1">
-                {errors.name.message}
-              </p>
+              <p className="text-red-500 text-sm mt-1">{errors.name.message}</p>
             )}
           </div>
 
@@ -174,7 +161,6 @@ const Register = () => {
 
           {/* Terms */}
           <label className="flex items-start gap-2 text-sm text-gray-600">
-
             <input
               type="checkbox"
               {...register("terms", {
@@ -184,13 +170,10 @@ const Register = () => {
             />
 
             <span>I agree to the terms & conditions</span>
-
           </label>
 
           {errors.terms && (
-            <p className="text-red-500 text-sm">
-              {errors.terms.message}
-            </p>
+            <p className="text-red-500 text-sm">{errors.terms.message}</p>
           )}
 
           {/* Submit Button */}
@@ -201,22 +184,25 @@ const Register = () => {
           >
             {loading ? "Creating Account..." : "Create Account"}
           </button>
-
         </form>
 
         {/* Divider */}
         <div className="flex items-center my-6">
           <div className="flex-1 h-px bg-gray-300"></div>
 
-          <span className="px-3 text-gray-500 text-sm">
-            OR
-          </span>
+          <span className="px-3 text-gray-500 text-sm">OR</span>
 
           <div className="flex-1 h-px bg-gray-300"></div>
         </div>
 
         {/* Google Button */}
-        <Button className="w-full" variant="tertiary">
+        <Button
+          onClick={() =>
+            authClient.signIn.social({ provider: "google", callbackURL: "/" })
+          }
+          className="w-full"
+          variant="tertiary"
+        >
           <Icon icon="devicon:google" width="20" />
           Sign in with Google
         </Button>
@@ -224,16 +210,13 @@ const Register = () => {
         {/* Footer */}
         <p className="text-center text-sm text-gray-600 mt-6">
           Already have an account?{" "}
-
           <NavLink
             href="/login"
             className="text-purple-600 font-medium hover:underline"
           >
             Login
           </NavLink>
-
         </p>
-
       </div>
     </section>
   );
